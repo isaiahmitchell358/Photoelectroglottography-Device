@@ -26,11 +26,13 @@ Fig. 3 The circuit design with all the properties mentioned in the Methods secti
 <img width="337" height="184" alt="Screenshot 2026-06-28 at 5 31 59 PM" src="https://github.com/user-attachments/assets/32753ebe-f048-4454-9690-d73b206fe806" />
 
 **Code:**
+
 Initial values are set for the ledPin, the threshold, the sensorValue, and the prevValue. The setup defines the ledPin as the output. The Serial.begin prepares the arduino for communication with the computer. The loop continuously reads the new input and outputs a signal into the LED which turns on if the threshold is met.
 
 <img width="508" height="420" alt="Screenshot 2026-06-28 at 4 23 55 PM" src="https://github.com/user-attachments/assets/9b78cf29-bdab-491b-8dd8-6d8f936439fd" />
 
 **Results:**
+
 Fig. 4 below shows the oscilloscope reading the signals of voltage differences that occur while there is muscle activation acting on the electrode. This signal was obtained by the circuit shown in the figure above in the Methods section which uses the LM741 and AD622 with a gain resistor of 330Ω.
 
 Fig. 4 The EMG reading of different levels of muscle contractions
@@ -47,7 +49,7 @@ Fig. 6 Low level muscle contraction
 
 <img width="701" height="397" alt="Screenshot 2026-07-02 at 3 46 07 PM" src="https://github.com/user-attachments/assets/01b1e873-3c81-4d0e-8a6c-95e8813c7117" />
 
-Discussion:
+**Discussion:**
 
 There were also some limitations that occurred, which can be improved on in later experiments. One limitation is that the gel electrodes do not stay on properly in the hand. If the electrodes are designed to fit more properly in the palm of the hand, it would work more effectively and cause less noise activation from the electrode moving around in the hand. However, when keeping the hand still, there would be no noise, and it would only activate when pressure is applied to the electrode. Experimentation can also be done in other placements of the hand, such as by having the electrode placed on the wrist to get certain muscle activations of each individual finger. This would give a better understanding of the subject’s muscle activation over time in each specific part of the hand rather than just the palm. However, this is beneficial because there can be certain subjects that play sports and suffer an injury and are unable to move every finger so they can only move a part of their hand. 
 For future work, the muscle activations can also be used to measure the strain tensor of the hand by also improving the sensitivity and responsiveness of the system. Another method is to use a Bluetooth module of some sort to be able to wirelessly send the ECG signal to a server so that the subject’s muscle activations and strain can be seen remotely. This way, the subject can also use the Morse code communication remotely as well and send messages to the server.
