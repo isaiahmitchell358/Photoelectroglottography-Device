@@ -23,7 +23,7 @@ Fig. 2 The circuit diagram for the muscle contraction EMG
 
 Fig. 3 The circuit design with all the properties mentioned in the Methods section
 
-<img width="239" height="320" alt="Screenshot 2026-06-28 at 5 32 40 PM" src="https://github.com/user-attachments/assets/96561ae9-4536-449b-b7cb-b8c20831a95b" />
+<img width="337" height="184" alt="Screenshot 2026-06-28 at 5 31 59 PM" src="https://github.com/user-attachments/assets/32753ebe-f048-4454-9690-d73b206fe806" />
 
 Results
 Fig. 4 below shows the oscilloscope reading the signals of voltage differences that occur while there is muscle activation acting on the electrode. This signal was obtained by the circuit shown in the figure above in the Methods section which uses the LM741 and AD622 with a gain resistor of 330Ω.
@@ -66,9 +66,3 @@ Operational amplifier. Operational Amplifier - an overview | ScienceDirect Topic
 https://www.sciencedirect.com/topics/engineering/operational-amplifier
 
 <img width="508" height="420" alt="Screenshot 2026-06-28 at 4 23 55 PM" src="https://github.com/user-attachments/assets/9b78cf29-bdab-491b-8dd8-6d8f936439fd" />
-
-
-<img width="239" height="320" alt="Screenshot 2026-06-28 at 5 32 40 PM" src="https://github.com/user-attachments/assets/96561ae9-4536-449b-b7cb-b8c20831a95b" />
-
-
-<img width="337" height="184" alt="Screenshot 2026-06-28 at 5 31 59 PM" src="https://github.com/user-attachments/assets/32753ebe-f048-4454-9690-d73b206fe806" />
